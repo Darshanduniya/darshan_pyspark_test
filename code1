@@ -17,6 +17,7 @@ lr = LinearRegression(featuresCol="features_vec", labelCol="label")
 
 # Fit the model to the training data
 model = lr.fit(df)
+darshan
 
 # Print the coefficients and intercept of the model
 print("Coefficients: " + str(model.coefficients))
