@@ -22,6 +22,7 @@ model = lr.fit(df)
 print("Coefficients: " + str(model.coefficients))
 print("Intercept: " + str(model.intercept))
 print("Intercept_two: " + str(model.intercept_two))
+print("Intercept_three: " + str(model.intercept_three))
 
 # Stop the SparkSession
 spark.stop()
