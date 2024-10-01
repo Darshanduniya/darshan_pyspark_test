@@ -24,5 +24,7 @@ print("Intercept: " + str(model.intercept))
 print("Intercept_two: " + str(model.intercept_two))
 print("Intercept_three: " + str(model.intercept_three))
 
+model_two = lr.fit(df)
+
 # Stop the SparkSession
 spark.stop()
